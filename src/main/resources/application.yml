@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: user-center
+  datasource:
+    url: "jdbc:mysql://8.142.182.225/yupi"
+    username: "glong"
+    password: "Gl85760016!"
