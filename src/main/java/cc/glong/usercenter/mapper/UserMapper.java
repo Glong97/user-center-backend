@@ -1,7 +1,7 @@
 package cc.glong.usercenter.mapper;
 
 
-import cc.glong.usercenter.model.User;
+import cc.glong.usercenter.model.entity.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

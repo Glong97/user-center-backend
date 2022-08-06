@@ -1,4 +1,4 @@
-package cc.glong.usercenter.model;
+package cc.glong.usercenter.model.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
@@ -76,6 +76,11 @@ public class User implements Serializable {
      * 是否被删除
      */
     private Integer isDeleted;
+
+    /**
+     * 用户身份 0 - 普通用户；1 - 管理员
+     */
+    private Integer userRole;
 
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;
